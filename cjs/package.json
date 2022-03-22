@@ -1,0 +1,21 @@
+{
+  "name": "faker-cjs-test",
+  "scripts": {
+    "clean": "rm -rf pnpm-lock.yaml node_modules",
+    "test:js": "node index.js",
+    "test:ts": "esno index.ts",
+    "test": "pnpm run test:js && pnpm run test:ts"
+  },
+  "dependencies": {
+    "@faker-js/faker": "6.0.0"
+  },
+  "devDependencies": {
+    "esno": "0.14.1",
+    "typescript": "4.6.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "@faker-js/faker": "link:../../faker.js"
+    }
+  }
+}

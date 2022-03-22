@@ -1,0 +1,8 @@
+{
+  "name": "faker-test",
+  "scripts": {
+    "test:cjs": "cd cjs && pnpm run test && cd ..",
+    "test:esm": "cd esm && pnpm run test && cd ..",
+    "test": "pnpm run test:cjs && pnpm run test:esm"
+  }
+}
