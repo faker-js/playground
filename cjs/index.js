@@ -21,16 +21,16 @@ console.log(fakerDe.animal.bird());
 console.log(fakerDe.address.city());
 
 // Testing https://github.com/faker-js/faker/pull/642
-const es = require("@faker-js/faker/locales/es");
-const fr = require("@faker-js/faker/locales/fr");
+// const es = require("@faker-js/faker/locales/es");
+// const fr = require("@faker-js/faker/locales/fr");
 
-console.log("es title:", es.title);
+// console.log("es title:", es.title);
 
-console.log(
-  "Manually loaded locale:",
-  new Faker({
-    locales: { es, fr },
-    locale: "es",
-    localeFallback: "fr",
-  }).locales.es.title
-);
+// console.log(
+//   "Manually loaded locale:",
+//   new Faker({
+//     locales: { es, fr },
+//     locale: "es",
+//     localeFallback: "fr",
+//   }).locales.es.title
+// );

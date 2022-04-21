@@ -7,15 +7,15 @@
     "test": "pnpm run test:js && pnpm run test:ts"
   },
   "dependencies": {
-    "@faker-js/faker": "6.0.0"
+    "@faker-js/faker": "6.2.0"
   },
   "devDependencies": {
     "esno": "0.14.1",
-    "typescript": "4.6.2"
+    "typescript": "4.6.3"
   },
   "pnpm": {
     "overrides": {
-      "@faker-js/faker": "link:../../faker.js"
+      "@faker-js/faker": "link:../../faker"
     }
   }
 }
