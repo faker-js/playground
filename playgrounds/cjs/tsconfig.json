@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2020",
+    "noEmit": true,
+    "strict": true
+  },
+  "files": ["index.ts"]
+}
