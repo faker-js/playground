@@ -44,7 +44,9 @@ jobs:
         run: pnpm install
 
       - name: Override linked @faker-js/faker
-        run: pnpm add @faker-js/faker
+        run: |
+          pnpm remove --workspace-root @faker-js/faker
+          pnpm add --workspace-root @faker-js/faker
 
       - name: Test
         run: pnpm run test
