@@ -1,8 +1,5 @@
 lockfileVersion: 5.4
 
-overrides:
-  '@faker-js/faker': link:../faker
-
 importers:
 
   .:

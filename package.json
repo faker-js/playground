@@ -8,15 +8,10 @@
     "test:esm": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/esm test"
   },
   "dependencies": {
-    "@faker-js/faker": "^7.0.1"
+    "@faker-js/faker": "link:../faker"
   },
   "devDependencies": {
     "esno": "~0.16.3",
     "typescript": "~4.7.2"
-  },
-  "pnpm": {
-    "overrides": {
-      "@faker-js/faker": "link:../faker"
-    }
   }
 }
