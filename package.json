@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "pnpm -r --filter=./playgrounds/* run test",
-    "test:cjs": "pnpm -r --filter=./playgrounds/cjs run test",
-    "test:esm": "pnpm -r --filter=./playgrounds/cjs run test"
+    "test": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* test",
+    "test:cjs": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/cjs test",
+    "test:esm": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/esm test"
   },
   "dependencies": {
     "@faker-js/faker": "^7.0.1"

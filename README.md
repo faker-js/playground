@@ -11,9 +11,9 @@ In the playground project you should run `pnpm install` once.
 
 You can run:
 
-- `pnpm -r test` to test `cjs` and `esm`
-- `pnpm -r test:js` to test only **JavaScript** files for `cjs` and `esm`
-- `pnpm -r test:ts` to test only **TypeScript** files for `cjs` and `esm`
+- `pnpm -r --workspace-concurrency 1 test` to test `cjs` and `esm`
+- `pnpm -r --workspace-concurrency 1 test:js` to test only **JavaScript** files for `cjs` and `esm`
+- `pnpm -r --workspace-concurrency 1 test:ts` to test only **TypeScript** files for `cjs` and `esm`
 - `pnpm run test:cjs` to test only `cjs`
 - `pnpm run test:esm` to test only `esm`
 
