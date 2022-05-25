@@ -1,11 +1,8 @@
-import { faker, Faker } from "@faker-js/faker";
-import fakerDe from "@faker-js/faker/locale/de";
+// @ts-check
 
-// Testing https://github.com/faker-js/faker/pull/642
-// import es from "@faker-js/faker/locales/es";
-// import fr from "@faker-js/faker/locales/fr";
+console.log("Testing js cjs index");
 
-console.log("Testing ts cjs index");
+const { faker, Faker } = require("@faker-js/faker");
 
 console.log(typeof faker);
 
@@ -13,15 +10,19 @@ console.log(faker.name.firstName());
 
 console.log(faker.address.city());
 
-console.log("Testing ts cjs locale");
+console.log("Testing js cjs locale");
 
-console.log(typeof fakerDe, fakerDe.locale);
+const { faker: fakerDe } = require("@faker-js/faker/locale/de");
 
 console.log(fakerDe.name.firstName());
 
 console.log(fakerDe.animal.bird());
 
 console.log(fakerDe.address.city());
+
+// Testing https://github.com/faker-js/faker/pull/642
+// const es = require("@faker-js/faker/locales/es");
+// const fr = require("@faker-js/faker/locales/fr");
 
 // console.log("es title:", es.title);
 

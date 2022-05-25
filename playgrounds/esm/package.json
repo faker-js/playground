@@ -1,0 +1,11 @@
+{
+  "name": "faker-esm-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:js": "node index.js",
+    "test:ts": "esno index.ts",
+    "test": "pnpm run test:js && pnpm run test:ts"
+  }
+}

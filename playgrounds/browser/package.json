@@ -1,0 +1,11 @@
+{
+  "name": "faker-browser-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vite"
+  },
+  "devDependencies": {
+    "vite": "~2.9.9"
+  }
+}
