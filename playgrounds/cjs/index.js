@@ -12,7 +12,8 @@ console.log(faker.address.city());
 
 console.log("Testing js cjs locale");
 
-const { faker: fakerDe } = require("@faker-js/faker/locale/de");
+const { default: de, faker: fakerDe } = require("@faker-js/faker/locale/de");
+const { default: fr } = require("@faker-js/faker/locale/fr");
 
 console.log(fakerDe.name.firstName());
 
@@ -21,16 +22,14 @@ console.log(fakerDe.animal.bird());
 console.log(fakerDe.address.city());
 
 // Testing https://github.com/faker-js/faker/pull/642
-// const es = require("@faker-js/faker/locales/es");
-// const fr = require("@faker-js/faker/locales/fr");
 
-// console.log("es title:", es.title);
+console.log("de title:", de.title);
 
-// console.log(
-//   "Manually loaded locale:",
-//   new Faker({
-//     locales: { es, fr },
-//     locale: "es",
-//     localeFallback: "fr",
-//   }).locales.es.title
-// );
+console.log(
+  "Manually loaded locale:",
+  new Faker({
+    locales: { de, fr },
+    locale: "de",
+    localeFallback: "fr",
+  }).locales.de.title
+);
