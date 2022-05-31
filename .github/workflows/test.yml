@@ -47,7 +47,7 @@ jobs:
         run: |
           pnpm remove --workspace-root @faker-js/faker
           pnpm add --workspace-root @faker-js/faker
-          pnpm install
+          pnpm install --no-frozen-lockfile
 
       - name: Test
         run: pnpm run test
