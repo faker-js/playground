@@ -49,6 +49,7 @@ importers:
       '@vue/cli-plugin-babel': ~5.0.4
       '@vue/cli-plugin-typescript': ~5.0.4
       '@vue/cli-service': ~5.0.4
+      '@vue/compiler-sfc': ~3.2.36
       core-js: ~3.22.7
       typescript: ~4.7.2
       vue: ~3.2.36
@@ -59,7 +60,8 @@ importers:
       '@babel/core': 7.18.2
       '@vue/cli-plugin-babel': 5.0.4_hfzsbscy2jnmapqyvjwrxafrum
       '@vue/cli-plugin-typescript': 5.0.4_er2jayeqrfy7ii45agjpcr7cvi
-      '@vue/cli-service': 5.0.4_@babel+core@7.18.2
+      '@vue/cli-service': 5.0.4_idfx667lx5syndczuejkl23lr4
+      '@vue/compiler-sfc': 3.2.36
       typescript: 4.7.2
 
 packages:
@@ -1745,7 +1747,7 @@ packages:
     dependencies:
       '@babel/core': 7.18.2
       '@vue/babel-preset-app': 5.0.4_vue@3.2.36
-      '@vue/cli-service': 5.0.4_@babel+core@7.18.2
+      '@vue/cli-service': 5.0.4_idfx667lx5syndczuejkl23lr4
       '@vue/cli-shared-utils': 5.0.4
       babel-loader: 8.2.5_w2i5cy6pptznn7rmavsgpnxasa
       thread-loader: 3.0.4_webpack@5.72.1
@@ -1765,7 +1767,7 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
     dependencies:
-      '@vue/cli-service': 5.0.4_@babel+core@7.18.2
+      '@vue/cli-service': 5.0.4_idfx667lx5syndczuejkl23lr4
       '@vue/cli-shared-utils': 5.0.4
     transitivePeerDependencies:
       - encoding
@@ -1787,7 +1789,7 @@ packages:
     dependencies:
       '@babel/core': 7.18.2
       '@types/webpack-env': 1.17.0
-      '@vue/cli-service': 5.0.4_@babel+core@7.18.2
+      '@vue/cli-service': 5.0.4_idfx667lx5syndczuejkl23lr4
       '@vue/cli-shared-utils': 5.0.4
       babel-loader: 8.2.5_w2i5cy6pptznn7rmavsgpnxasa
       fork-ts-checker-webpack-plugin: 6.5.2_d3ofjbjbkerjqvgldod72xzm2y
@@ -1813,10 +1815,10 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0 || ^5.0.0-0
     dependencies:
-      '@vue/cli-service': 5.0.4_@babel+core@7.18.2
+      '@vue/cli-service': 5.0.4_idfx667lx5syndczuejkl23lr4
     dev: true
 
-  /@vue/cli-service/5.0.4_@babel+core@7.18.2:
+  /@vue/cli-service/5.0.4_idfx667lx5syndczuejkl23lr4:
     resolution: {integrity: sha512-xRiLNTFYmMCT9edZpyYXHijW5xot3gbZpcWDOXUOhKPHN4qs4XqWALnZlU97JYjZOr3XIr/ZvyciyEfrlUVqSA==}
     engines: {node: ^12.0.0 || >= 14.0.0}
     hasBin: true
@@ -1856,7 +1858,7 @@ packages:
       '@vue/cli-plugin-vuex': 5.0.4_@vue+cli-service@5.0.4
       '@vue/cli-shared-utils': 5.0.4
       '@vue/component-compiler-utils': 3.3.0
-      '@vue/vue-loader-v15': /vue-loader/15.9.8_2bxwybhj27rcaymsaot66d2gs4
+      '@vue/vue-loader-v15': /vue-loader/15.9.8_sau63s6bppw4r2dzm3kksekwx4
       '@vue/web-component-wrapper': 1.3.0
       acorn: 8.7.1
       acorn-walk: 8.2.0
@@ -6670,7 +6672,7 @@ packages:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
     dev: true
 
-  /vue-loader/15.9.8_2bxwybhj27rcaymsaot66d2gs4:
+  /vue-loader/15.9.8_sau63s6bppw4r2dzm3kksekwx4:
     resolution: {integrity: sha512-GwSkxPrihfLR69/dSV3+5CdMQ0D+jXg8Ma1S4nQXKJAznYFX14vHdc/NetQc34Dw+rBbIJyP7JOuVb9Fhprvog==}
     peerDependencies:
       '@vue/compiler-sfc': ^3.0.8
@@ -6686,6 +6688,7 @@ packages:
       vue-template-compiler:
         optional: true
     dependencies:
+      '@vue/compiler-sfc': 3.2.36
       '@vue/component-compiler-utils': 3.3.0
       css-loader: 6.7.1_webpack@5.72.1
       hash-sum: 1.0.2
