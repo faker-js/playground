@@ -1,9 +1,23 @@
 import type { NextPage } from 'next';
 
-const Home: NextPage = () => {
+import { faker } from '@faker-js/faker';
+
+export async function getServerSideProps() {
+  return {
+    props: {
+      firstName: faker.name.firstName(),
+      lastName: faker.name.lastName(),
+    },
+  };
+}
+
+const Home: NextPage<{ firstName: string; lastName: string }> = ({
+  firstName,
+  lastName,
+}) => {
   return (
     <h1>
-      Welcome to <a href='https://nextjs.org'>Next.js!</a>
+      Welcome {firstName} {lastName}!
     </h1>
   );
 };
