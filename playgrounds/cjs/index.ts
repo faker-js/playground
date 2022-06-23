@@ -1,9 +1,6 @@
 import { faker, Faker } from "@faker-js/faker";
-import { faker as fakerDe } from "@faker-js/faker/locale/de";
-
-// Testing https://github.com/faker-js/faker/pull/642
-// import es from "@faker-js/faker/locales/es";
-// import fr from "@faker-js/faker/locales/fr";
+import de, { faker as fakerDe } from "@faker-js/faker/locale/de";
+import fr from "@faker-js/faker/locale/fr";
 
 console.log("Testing ts cjs index");
 
@@ -23,13 +20,13 @@ console.log(fakerDe.animal.bird());
 
 console.log(fakerDe.address.city());
 
-// console.log("es title:", es.title);
+console.log("de title:", de.title);
 
-// console.log(
-//   "Manually loaded locale:",
-//   new Faker({
-//     locales: { es, fr },
-//     locale: "es",
-//     localeFallback: "fr",
-//   }).locales.es.title
-// );
+console.log(
+  "Manually loaded locale:",
+  new Faker({
+    locales: { de, fr },
+    locale: "de",
+    localeFallback: "fr",
+  }).locales.de!.title
+);
