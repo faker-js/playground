@@ -1,6 +1,6 @@
-import type { NextPage } from 'next';
+import type { NextPage } from "next";
 
-import { faker } from '@faker-js/faker';
+import { faker } from "@faker-js/faker";
 
 export async function getServerSideProps() {
   return {
