@@ -6,19 +6,19 @@ const { faker, Faker } = require("@faker-js/faker");
 
 console.log(typeof faker);
 
-console.log(faker.name.firstName());
+console.log(faker.person.firstName());
 
-console.log(faker.address.city());
+console.log(faker.location.city());
 
 console.log("Testing js cjs locale");
 
 const { faker: fakerDe } = require("@faker-js/faker/locale/de");
 
-console.log(fakerDe.name.firstName());
+console.log(fakerDe.person.firstName());
 
 console.log(fakerDe.animal.bird());
 
-console.log(fakerDe.address.city());
+console.log(fakerDe.location.city());
 
 // Testing https://github.com/faker-js/faker/pull/642
 // const es = require("@faker-js/faker/locales/es");

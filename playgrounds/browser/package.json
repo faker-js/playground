@@ -6,6 +6,6 @@
     "serve": "vite"
   },
   "devDependencies": {
-    "vite": "~3.1.7"
+    "vite": "~4.3.5"
   }
 }

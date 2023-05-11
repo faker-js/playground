@@ -6,7 +6,7 @@ describe("Search", () => {
 
     cy.visit("https://google.com");
 
-    cy.get('input[name="q"]').type(word, { force: true });
+    cy.get('textarea[name="q"]').type(word, { force: true });
 
     cy.get('form[role="search"]').submit();
 

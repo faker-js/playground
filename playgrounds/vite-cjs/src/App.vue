@@ -1,10 +1,13 @@
 <script setup lang="ts">
-import { faker } from '@faker-js/faker/locale/en';
-import { ref } from 'vue';
+import { FakerError } from "@faker-js/faker";
+import { faker } from "@faker-js/faker/locale/en";
+import { ref } from "vue";
 
-const fullName = ref(`${faker.name.firstName()} ${faker.name.lastName()}`);
+const fullName = ref(`${faker.person.firstName()} ${faker.person.lastName()}`);
 const avatarUrl = ref(faker.image.avatar());
-const natureImageUrl = ref(faker.image.nature());
+const natureImageUrl = ref(
+  faker.image.urlLoremFlickr({ category: "nature" }) + new FakerError("test")
+);
 </script>
 
 <template>

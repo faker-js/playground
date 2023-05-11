@@ -9,19 +9,19 @@ console.log("Testing ts esm index");
 
 console.log(typeof faker);
 
-console.log(faker.name.firstName());
+console.log(faker.person.firstName());
 
-console.log(faker.address.city());
+console.log(faker.location.city());
 
 console.log("Testing ts esm locale");
 
-console.log(typeof fakerDe, fakerDe.locale);
+console.log(typeof fakerDe, fakerDe.definitions.metadata.title);
 
-console.log(fakerDe.name.firstName());
+console.log(fakerDe.person.firstName());
 
 console.log(fakerDe.animal.bird());
 
-console.log(fakerDe.address.city());
+console.log(fakerDe.location.city());
 
 const MOCK_ARRAY = Array.from(
   { length: 50 },
@@ -29,7 +29,7 @@ const MOCK_ARRAY = Array.from(
 );
 
 const method = () =>
-  MOCK_ARRAY[faker.datatype.number({ min: 0, max: MOCK_ARRAY.length - 1 })];
+  MOCK_ARRAY[faker.number.int({ min: 0, max: MOCK_ARRAY.length - 1 })];
 
 faker.seed(42);
 console.log(method()); // 19
