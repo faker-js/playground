@@ -5,6 +5,6 @@
   "type": "module",
   "scripts": {
     "compile": "tsc",
-    "test": "esno index.ts"
+    "test": "tsx index.ts"
   }
 }

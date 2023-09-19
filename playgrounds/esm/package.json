@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "tsc",
     "test:js": "node index.js",
-    "test:ts": "esno index.ts",
+    "test:ts": "tsx index.ts",
     "test": "pnpm run test:js && pnpm run test:ts"
   }
 }

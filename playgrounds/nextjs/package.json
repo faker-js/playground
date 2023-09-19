@@ -16,12 +16,12 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@faker-js/faker": "8.0.0",
-    "@types/node": "20.1.2",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
+    "@faker-js/faker": "8.1.0",
+    "@types/node": "20.6.2",
+    "@types/react": "18.2.22",
+    "@types/react-dom": "18.2.7",
     "cypress": "12.11.0",
-    "eslint": "8.40.0",
+    "eslint": "8.49.0",
     "eslint-config-next": "12.3.4",
     "typescript": "5.0.4"
   }
