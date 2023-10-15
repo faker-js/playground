@@ -6,5 +6,8 @@
   "scripts": {
     "compile": "tsc",
     "test": "tsx index.ts"
+  },
+  "devDependencies": {
+    "typescript": "~4.7.4"
   }
 }
