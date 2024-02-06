@@ -9,12 +9,12 @@
       import { faker } from "https://esm.sh/@faker-js/faker";
       import { faker as faker_zh_CN } from "https://esm.sh/@faker-js/faker/locale/zh_CN";
 
-      console.log(faker.name.firstName());
+      console.log(faker.person.firstName());
 
-      const fullName = `${faker.name.firstName()} ${faker.name.lastName()}`;
+      const fullName = `${faker.person.firstName()} ${faker.person.lastName()}`;
       const avatarUrl = faker.image.avatar();
-      const natureImageUrl = faker.image.nature();
-      const zh_CN_fullName = `${faker_zh_CN.name.firstName()} ${faker_zh_CN.name.lastName()}`;
+      const natureImageUrl = faker.image.urlLoremFlickr({ category: 'nature' });
+      const zh_CN_fullName = `${faker_zh_CN.person.firstName()} ${faker_zh_CN.person.lastName()}`;
 
       const appDiv = document.getElementById("app");
       appDiv.innerHTML = `

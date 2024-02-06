@@ -5,8 +5,8 @@ import { faker } from "@faker-js/faker";
 export async function getServerSideProps() {
   return {
     props: {
-      firstName: faker.name.firstName(),
-      lastName: faker.name.lastName(),
+      firstName: faker.person.firstName(),
+      lastName: faker.person.lastName(),
     },
   };
 }
