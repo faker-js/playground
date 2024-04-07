@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "compile": "tsc",
+    "build": "tsc",
     "test": "tsx index.ts"
   },
   "devDependencies": {

@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "compile": "tsc",
+    "build": "tsc",
     "test:js": "node index.js",
     "test:ts": "tsx index.ts",
     "test": "pnpm run test:js && pnpm run test:ts"
