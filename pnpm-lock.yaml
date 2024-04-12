@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@faker-js/faker':
-        specifier: 8.4.1
-        version: 8.4.1
+        specifier: 9.0.0-alpha.0
+        version: 9.0.0-alpha.0
     devDependencies:
       tsx:
         specifier: ~4.7.2
@@ -59,12 +59,6 @@ importers:
       eslint-config-next:
         specifier: 14.1.4
         version: 14.1.4(eslint@8.57.0)(typescript@5.4.4)
-
-  playgrounds/ts-4.7-nodenext:
-    devDependencies:
-      typescript:
-        specifier: ~4.7.4
-        version: 4.7.4
 
   playgrounds/vite-cjs:
     dependencies:
@@ -1881,9 +1875,9 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@faker-js/faker@8.4.1:
-    resolution: {integrity: sha512-XQ3cU+Q8Uqmrbf2e0cIC/QN43sTBSC8KF12u29Mb47tWrt2hAgBXSgpZMj4Ao8Uk0iJcU99QsOCaIL8934obCg==}
-    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
+  /@faker-js/faker@9.0.0-alpha.0:
+    resolution: {integrity: sha512-5qZcZG9EheTKYo0xVg2XhuOuBjeizysDocwJSq4MZYoAbpk9SxZP7o5PLKzQjHLZ+tCm0+od4h3Ou1nRuF9nJQ==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0'}
     dev: false
 
   /@hapi/hoek@9.3.0:
@@ -9221,12 +9215,6 @@ packages:
       has-proto: 1.0.3
       is-typed-array: 1.1.13
       possible-typed-array-names: 1.0.0
-    dev: true
-
-  /typescript@4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
     dev: true
 
   /typescript@5.4.4:
