@@ -22,16 +22,16 @@ jobs:
     name: "node-${{ matrix.node_version }}, ${{ matrix.os }}"
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # Required for docs/versions tests
           fetch-depth: 0
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.4
+        uses: pnpm/action-setup@v3
 
       - name: Set node version to ${{ matrix.node_version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node_version }}
           cache: "pnpm"
@@ -48,5 +48,5 @@ jobs:
       - name: Test
         run: pnpm run test
 
-      - name: Compile
-        run: pnpm run compile
+      - name: Build
+        run: pnpm run build

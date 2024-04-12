@@ -7,11 +7,11 @@
     "test:cjs": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/cjs test",
     "test:esm": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/esm test",
     "test:nextjs": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/nextjs test",
-    "compile": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* compile"
+    "build": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* build"
   },
   "devDependencies": {
-    "tsx": "~4.7.0",
-    "typescript": "~5.3.3"
+    "tsx": "~4.7.2",
+    "typescript": "~5.4.4"
   },
   "dependencies": {
     "@faker-js/faker": "8.4.1"

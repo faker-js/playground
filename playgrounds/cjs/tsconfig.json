@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "CommonJS",
-    "moduleResolution": "Node",
+    "moduleResolution": "Node10",
     "target": "ES2022",
     "noEmit": true,
     "strict": true
