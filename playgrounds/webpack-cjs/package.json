@@ -8,11 +8,11 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "~3.36.1",
-    "vue": "~3.4.21"
+    "core-js": "~3.37.1",
+    "vue": "~3.4.27"
   },
   "devDependencies": {
-    "@babel/core": "~7.24.4",
+    "@babel/core": "~7.24.5",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-typescript": "~5.0.8",
     "@vue/cli-service": "~5.0.8"
