@@ -6,7 +6,6 @@ This repo contains multiple test playgrounds:
 - cjs
 - esm
 - nextjs
-- ts-4.7-nodenext
 - vite-cjs
 - vite-esm
 - webpack-cjs
