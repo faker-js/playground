@@ -9,11 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "~3.4.27"
+    "vue": "~3.4.30"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "~5.0.4",
-    "vite": "~5.2.11",
-    "vue-tsc": "~2.0.19"
+    "@vitejs/plugin-vue": "~5.0.5",
+    "vite": "~5.3.1",
+    "vue-tsc": "~2.0.22"
   }
 }
