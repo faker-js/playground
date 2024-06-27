@@ -20,6 +20,9 @@
   "pnpm": {
     "overrides-for-dev": {
       "@faker-js/faker": "link:../faker"
+    },
+    "overrides-for-release": {
+      "@faker-js/faker": "file:../faker"
     }
   }
 }
