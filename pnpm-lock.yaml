@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@faker-js/faker':
-        specifier: 9.0.0-alpha.1
-        version: 9.0.0-alpha.1
+        specifier: 9.0.0-rc.0
+        version: 9.0.0-rc.0
     devDependencies:
       tsx:
         specifier: ~4.16.2
@@ -1726,8 +1726,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@faker-js/faker@9.0.0-alpha.1:
-    resolution: {integrity: sha512-NlUr2d4DVmua0BRYdQwoUoYoSgX2740gwzcah3tm935P0iyOICVWUNp1hGHY/gzwelnz7RZbUsNugFxXhcYPYA==}
+  /@faker-js/faker@9.0.0-rc.0:
+    resolution: {integrity: sha512-8ouDqdlHqREHizwGk1QiXuL73vtBfRFh0Uh71aJyotCg6QMF9IgyvIsxf/IunoEr3gqpUwAlrhLMwLIvRK1mzg==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
     dev: false
 
