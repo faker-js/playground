@@ -10,13 +10,13 @@
     "build": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* build"
   },
   "devDependencies": {
-    "tsx": "~4.16.2",
-    "typescript": "~5.5.3"
+    "tsx": "~4.17.0",
+    "typescript": "~5.5.4"
   },
   "dependencies": {
-    "@faker-js/faker": "9.0.0-rc.0"
+    "@faker-js/faker": "9.0.0-rc.1"
   },
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@8.15.9",
   "pnpm": {
     "overrides-for-dev": {
       "@faker-js/faker": "link:../faker"
