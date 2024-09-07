@@ -4,9 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "pnpm run build:node10 && pnpm run build:node16",
+    "build:node10": "tsc",
+    "build:node16": "tsc --project tsconfig.node16.json",
+    "test": "pnpm run test:js && pnpm run test:ts",
     "test:js": "node index.js",
-    "test:ts": "tsx index.ts",
-    "test": "pnpm run test:js && pnpm run test:ts"
+    "test:ts": "tsx index.ts"
   }
 }
