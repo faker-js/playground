@@ -10,16 +10,16 @@
     "test": "cypress install && cypress run"
   },
   "dependencies": {
-    "next": "14.2.7",
+    "next": "14.2.11",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@types/node": "22.4.2",
-    "@types/react": "18.3.3",
+    "@types/node": "22.5.5",
+    "@types/react": "18.3.5",
     "@types/react-dom": "18.3.0",
-    "cypress": "13.14.1",
+    "cypress": "13.14.2",
     "eslint": "8.57.0",
-    "eslint-config-next": "14.2.7"
+    "eslint-config-next": "14.2.11"
   }
 }
