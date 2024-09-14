@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "all": "pnpm run-s build test",
     "test": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* test",
     "test:cjs": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/cjs test",
     "test:esm": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/esm test",
@@ -10,6 +11,7 @@
     "build": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* build"
   },
   "devDependencies": {
+    "npm-run-all2": "~6.2.3",
     "tsx": "~4.19.1",
     "typescript": "~5.6.2"
   },

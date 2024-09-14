@@ -4,9 +4,16 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "build": "tsc",
+    "all": "pnpm run-s build test",
+    "build": "pnpm run-s build:node10 build:node16 build:bundler",
+    "build:node10": "tsc",
+    "build:node16": "tsc --project tsconfig.node16.json",
+    "build:bundler": "tsc --project tsconfig.bundler.json",
+    "test": "pnpm run-s test:js test:ts",
     "test:js": "node index.js",
-    "test:ts": "tsx index.ts",
-    "test": "pnpm run test:js && pnpm run test:ts"
+    "test:ts": "pnpm run-s test:ts:node10 test:ts:node16 test:ts:bundler",
+    "test:ts:node10": "tsx index.ts",
+    "test:ts:node16": "tsx --tsconfig tsconfig.node16.json index.ts",
+    "test:ts:bundler": "tsx --tsconfig tsconfig.bundler.json index.ts"
   }
 }
