@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "all": "pnpm run-s build test",
     "build": "pnpm run-s build:node10 build:node16 build:bundler",
     "build:node10": "tsc",
     "build:node16": "tsc --project tsconfig.node16.json",
