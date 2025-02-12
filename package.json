@@ -16,9 +16,9 @@
     "typescript": "5.7.3"
   },
   "dependencies": {
-    "@faker-js/faker": "9.4.0"
+    "@faker-js/faker": "9.5.0"
   },
-  "packageManager": "pnpm@10.2.1",
+  "packageManager": "pnpm@10.3.0",
   "pnpm": {
     "overrides-for-dev": {
       "@faker-js/faker": "link:../faker"
