@@ -5,7 +5,6 @@ This repo contains multiple test playgrounds:
 - browser
 - cjs
 - esm
-- nextjs
 - vite-cjs
 - vite-esm
 - webpack-cjs
