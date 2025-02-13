@@ -7,7 +7,6 @@
     "test": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* test",
     "test:cjs": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/cjs test",
     "test:esm": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/esm test",
-    "test:nextjs": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/nextjs test",
     "build": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* build"
   },
   "devDependencies": {
@@ -28,7 +27,6 @@
     },
     "ignoredBuiltDependencies": [
       "core-js",
-      "cypress",
       "esbuild",
       "sharp"
     ]

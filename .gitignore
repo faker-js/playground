@@ -1,4 +1,3 @@
 .pnpm-store/
 node_modules
 *.log
-/playgrounds/nextjs/cypress/screenshots/*
