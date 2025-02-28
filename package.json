@@ -11,13 +11,13 @@
   },
   "devDependencies": {
     "npm-run-all2": "7.0.2",
-    "tsx": "4.19.2",
+    "tsx": "4.19.3",
     "typescript": "5.7.3"
   },
   "dependencies": {
-    "@faker-js/faker": "9.5.0"
+    "@faker-js/faker": "9.5.1"
   },
-  "packageManager": "pnpm@10.3.0",
+  "packageManager": "pnpm@10.5.2",
   "pnpm": {
     "overrides-for-dev": {
       "@faker-js/faker": "link:../faker"
