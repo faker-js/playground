@@ -17,7 +17,7 @@
   "dependencies": {
     "@faker-js/faker": "9.6.0"
   },
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@10.8.0",
   "pnpm": {
     "overrides-for-dev": {
       "@faker-js/faker": "link:../faker"
