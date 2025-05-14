@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@faker-js/faker':
-        specifier: 9.7.0
-        version: 9.7.0
+        specifier: 9.8.0
+        version: 9.8.0
     devDependencies:
       npm-run-all2:
         specifier: 7.0.2
@@ -67,8 +67,8 @@ importers:
   playgrounds/webpack-cjs:
     dependencies:
       core-js:
-        specifier: ~3.41.0
-        version: 3.41.0
+        specifier: ~3.42.0
+        version: 3.42.0
       vue:
         specifier: ~3.5.13
         version: 3.5.13(typescript@5.8.3)
@@ -78,7 +78,7 @@ importers:
         version: 7.26.10
       '@vue/cli-plugin-babel':
         specifier: 5.0.8
-        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(lodash@4.17.21)(vue@3.5.13(typescript@5.8.3))(webpack-sources@3.2.3))(core-js@3.41.0)(vue@3.5.13(typescript@5.8.3))
+        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(lodash@4.17.21)(vue@3.5.13(typescript@5.8.3))(webpack-sources@3.2.3))(core-js@3.42.0)(vue@3.5.13(typescript@5.8.3))
       '@vue/cli-plugin-typescript':
         specifier: 5.0.8
         version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(lodash@4.17.21)(vue@3.5.13(typescript@5.8.3))(webpack-sources@3.2.3))(typescript@5.8.3)(vue@3.5.13(typescript@5.8.3))
@@ -771,8 +771,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@faker-js/faker@9.7.0':
-    resolution: {integrity: sha512-aozo5vqjCmDoXLNUJarFZx2IN/GgGaogY4TMJ6so/WLZOWpSV7fvj2dmrV6sEAnUm1O7aCrhTibjpzeDFgNqbg==}
+  '@faker-js/faker@9.8.0':
+    resolution: {integrity: sha512-U9wpuSrJC93jZBxx/Qq2wPjCuYISBueyVUGK7qqdmj7r/nxaxwW8AQDCLeRO7wZnjj94sh3p246cAYjUKuqgfg==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
 
   '@hapi/hoek@9.3.0':
@@ -1803,8 +1803,8 @@ packages:
   core-js-compat@3.41.0:
     resolution: {integrity: sha512-RFsU9LySVue9RTwdDVX/T0e2Y6jRYWXERKElIjpuEOEnxaXffI0X7RUwVzfYLfzuLXSNJDYoRYUAmRUcyln20A==}
 
-  core-js@3.41.0:
-    resolution: {integrity: sha512-SJ4/EHwS36QMJd6h/Rg+GyR4A5xE0FSI3eZ+iBVpfqf1x0eTSg1smWLHrA+2jQThZSh97fmSgFSU8B61nxosxA==}
+  core-js@3.42.0:
+    resolution: {integrity: sha512-Sz4PP4ZA+Rq4II21qkNqOEDTDrCvcANId3xpIgB34NDkWc3UduWj2dqEtN9yZIq8Dk3HyPI33x9sqqU5C8sr0g==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -4768,7 +4768,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.2':
     optional: true
 
-  '@faker-js/faker@9.7.0': {}
+  '@faker-js/faker@9.8.0': {}
 
   '@hapi/hoek@9.3.0': {}
 
@@ -5066,7 +5066,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vue/babel-preset-app@5.0.8(@babel/core@7.26.10)(core-js@3.41.0)(vue@3.5.13(typescript@5.8.3))':
+  '@vue/babel-preset-app@5.0.8(@babel/core@7.26.10)(core-js@3.42.0)(vue@3.5.13(typescript@5.8.3))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/helper-compilation-targets': 7.27.0
@@ -5084,7 +5084,7 @@ snapshots:
       core-js-compat: 3.41.0
       semver: 7.7.1
     optionalDependencies:
-      core-js: 3.41.0
+      core-js: 3.42.0
       vue: 3.5.13(typescript@5.8.3)
     transitivePeerDependencies:
       - supports-color
@@ -5148,10 +5148,10 @@ snapshots:
 
   '@vue/cli-overlay@5.0.8': {}
 
-  '@vue/cli-plugin-babel@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(lodash@4.17.21)(vue@3.5.13(typescript@5.8.3))(webpack-sources@3.2.3))(core-js@3.41.0)(vue@3.5.13(typescript@5.8.3))':
+  '@vue/cli-plugin-babel@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.13)(lodash@4.17.21)(vue@3.5.13(typescript@5.8.3))(webpack-sources@3.2.3))(core-js@3.42.0)(vue@3.5.13(typescript@5.8.3))':
     dependencies:
       '@babel/core': 7.26.10
-      '@vue/babel-preset-app': 5.0.8(@babel/core@7.26.10)(core-js@3.41.0)(vue@3.5.13(typescript@5.8.3))
+      '@vue/babel-preset-app': 5.0.8(@babel/core@7.26.10)(core-js@3.42.0)(vue@3.5.13(typescript@5.8.3))
       '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.13)(lodash@4.17.21)(vue@3.5.13(typescript@5.8.3))(webpack-sources@3.2.3)
       '@vue/cli-shared-utils': 5.0.8
       babel-loader: 8.4.1(@babel/core@7.26.10)(webpack@5.99.5)
@@ -5949,7 +5949,7 @@ snapshots:
     dependencies:
       browserslist: 4.24.4
 
-  core-js@3.41.0: {}
+  core-js@3.42.0: {}
 
   core-util-is@1.0.3: {}
 
