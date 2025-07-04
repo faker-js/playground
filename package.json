@@ -10,7 +10,7 @@
     "build": "pnpm -r --workspace-concurrency 1 --filter=./playgrounds/* build"
   },
   "devDependencies": {
-    "npm-run-all2": "7.0.2",
+    "npm-run-all2": "8.0.4",
     "tsx": "4.20.3",
     "typescript": "5.8.3"
   },
