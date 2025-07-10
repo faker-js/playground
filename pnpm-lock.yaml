@@ -67,8 +67,8 @@ importers:
   playgrounds/webpack-cjs:
     dependencies:
       core-js:
-        specifier: ~3.43.0
-        version: 3.43.0
+        specifier: ~3.44.0
+        version: 3.44.0
       vue:
         specifier: ~3.5.13
         version: 3.5.17(typescript@5.8.3)
@@ -78,7 +78,7 @@ importers:
         version: 7.28.0
       '@vue/cli-plugin-babel':
         specifier: 5.0.8
-        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.17)(lodash@4.17.21)(vue@3.5.17(typescript@5.8.3))(webpack-sources@3.3.3))(core-js@3.43.0)(vue@3.5.17(typescript@5.8.3))
+        version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.17)(lodash@4.17.21)(vue@3.5.17(typescript@5.8.3))(webpack-sources@3.3.3))(core-js@3.44.0)(vue@3.5.17(typescript@5.8.3))
       '@vue/cli-plugin-typescript':
         specifier: 5.0.8
         version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.17)(lodash@4.17.21)(vue@3.5.17(typescript@5.8.3))(webpack-sources@3.3.3))(typescript@5.8.3)(vue@3.5.17(typescript@5.8.3))
@@ -1828,8 +1828,8 @@ packages:
   core-js-compat@3.44.0:
     resolution: {integrity: sha512-JepmAj2zfl6ogy34qfWtcE7nHKAJnKsQFRn++scjVS2bZFllwptzw61BZcZFYBPpUznLfAvh0LGhxKppk04ClA==}
 
-  core-js@3.43.0:
-    resolution: {integrity: sha512-N6wEbTTZSYOY2rYAn85CuvWWkCK6QweMn7/4Nr3w+gDBeBhk/x4EJeY6FPo4QzDoJZxVTv8U7CMvgWk6pOHHqA==}
+  core-js@3.44.0:
+    resolution: {integrity: sha512-aFCtd4l6GvAXwVEh3XbbVqJGHDJt0OZRa+5ePGx3LLwi12WfexqQxcsohb2wgsa/92xtl19Hd66G/L+TaAxDMw==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -5121,7 +5121,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@vue/babel-preset-app@5.0.8(@babel/core@7.28.0)(core-js@3.43.0)(vue@3.5.17(typescript@5.8.3))':
+  '@vue/babel-preset-app@5.0.8(@babel/core@7.28.0)(core-js@3.44.0)(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/helper-compilation-targets': 7.27.2
@@ -5139,7 +5139,7 @@ snapshots:
       core-js-compat: 3.44.0
       semver: 7.7.2
     optionalDependencies:
-      core-js: 3.43.0
+      core-js: 3.44.0
       vue: 3.5.17(typescript@5.8.3)
     transitivePeerDependencies:
       - supports-color
@@ -5203,10 +5203,10 @@ snapshots:
 
   '@vue/cli-overlay@5.0.8': {}
 
-  '@vue/cli-plugin-babel@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.17)(lodash@4.17.21)(vue@3.5.17(typescript@5.8.3))(webpack-sources@3.3.3))(core-js@3.43.0)(vue@3.5.17(typescript@5.8.3))':
+  '@vue/cli-plugin-babel@5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.17)(lodash@4.17.21)(vue@3.5.17(typescript@5.8.3))(webpack-sources@3.3.3))(core-js@3.44.0)(vue@3.5.17(typescript@5.8.3))':
     dependencies:
       '@babel/core': 7.28.0
-      '@vue/babel-preset-app': 5.0.8(@babel/core@7.28.0)(core-js@3.43.0)(vue@3.5.17(typescript@5.8.3))
+      '@vue/babel-preset-app': 5.0.8(@babel/core@7.28.0)(core-js@3.44.0)(vue@3.5.17(typescript@5.8.3))
       '@vue/cli-service': 5.0.8(@vue/compiler-sfc@3.5.17)(lodash@4.17.21)(vue@3.5.17(typescript@5.8.3))(webpack-sources@3.3.3)
       '@vue/cli-shared-utils': 5.0.8
       babel-loader: 8.4.1(@babel/core@7.28.0)(webpack@5.100.0)
@@ -6004,7 +6004,7 @@ snapshots:
     dependencies:
       browserslist: 4.25.1
 
-  core-js@3.43.0: {}
+  core-js@3.44.0: {}
 
   core-util-is@1.0.3: {}
 
