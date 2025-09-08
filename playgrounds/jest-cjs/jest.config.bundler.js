@@ -4,12 +4,16 @@
 module.exports = {
   testEnvironment: 'node',
   transformIgnorePatterns: [
-    // 'node_modules/(?!@faker-js).+', // required if the projects package manager is "npm"
-    'node_modules/.pnpm/.+/node_modules/(?!@faker-js).+', // required if the package manager is "pnpm"
-    // I have no idea how yarn builds the node_modules directory otherwise the pattern would be here ¯\(o_o)/¯
+    // Transformation patterns for Jest to handle ES modules in node_modules.
+    // Use the appropriate pattern based on your package manager:
     //
-    // NOTE!!!
-    // Exactly one of  must be active at the same time - no more, no less!!!
+    // For npm:
+    // 'node_modules/(?!@faker-js).+',
+    //
+    // For pnpm:
+    'node_modules/.pnpm/.+/node_modules/(?!@faker-js).+',
+    //
+    // Important: Only one pattern matching Faker should be active at a time to ensure correct module transformation.
   ],
   transform: {
     '^.+\\.(t|j)s$': [
