@@ -12,7 +12,7 @@
   "devDependencies": {
     "npm-run-all2": "8.0.4",
     "tsx": "4.20.5",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "dependencies": {
     "@faker-js/faker": "10.0.0"
