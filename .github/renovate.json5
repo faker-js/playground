@@ -46,6 +46,10 @@
       matchPackageNames: ['@vitest/**', 'vitest'],
     },
     {
+      groupName: 'jest',
+      matchPackageNames: ['@globals/jest', 'jest', 'ts-jest'],
+    },
+    {
       groupName: 'prettier',
       matchPackageNames: ['@types/prettier', 'prettier'],
     },
