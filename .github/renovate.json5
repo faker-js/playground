@@ -32,6 +32,12 @@
       rangeStrategy: 'replace',
     },
     {
+      groupName: 'faker',
+      matchPackageNames: ['@faker-js/faker'],
+      minimumReleaseAge: '0 days',
+      minimumReleaseAgeBehaviour: 'timestamp-optional'
+    },
+    {
       groupName: 'eslint',
       matchPackageNames: [
         '@eslint/**',
