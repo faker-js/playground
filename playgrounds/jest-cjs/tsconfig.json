@@ -4,7 +4,8 @@
     "moduleResolution": "Node10",
     "target": "ES2022",
     "noEmit": true,
-    "strict": true
+    "strict": true,
+    "allowJs": true
   },
   "files": ["index.spec.ts"]
 }
