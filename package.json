@@ -15,7 +15,7 @@
     "typescript": "5.9.3"
   },
   "dependencies": {
-    "@faker-js/faker": "10.3.0"
+    "@faker-js/faker": "10.4.0"
   },
   "packageManager": "pnpm@10.32.1",
   "pnpm": {
