@@ -10,7 +10,7 @@
     "test:bundler": "jest --config jest.config.bundler.js"
   },
   "devDependencies": {
-    "@jest/globals": "30.3.0",
+    "@jest/globals": "30.4.1",
     "jest": "30.4.2",
     "ts-jest": "29.4.11"
   }
